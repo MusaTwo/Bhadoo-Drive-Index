@@ -411,7 +411,7 @@ function append_files_to_list(path, files) {
  */
 function render_search_result_list() {
 	var content = `
-  <div class="container"><br>
+  <div class="container"><br><p style="text-align:center;margin-bottom:5px">More Movies &amp; TV Series visit us at <a href="https://sdgmax.com">SDGMax.com</a></p>
   <div class="card">
   <h5 class="card-header">Search Results</h5>
   <div id="list" class="list-group">
@@ -661,7 +661,7 @@ function file_code(path) {
 	var ext = name.split('.').pop().toLowerCase();
 	var href = window.location.origin + path;
 	var content = `
-<div class="container"><br>
+<div class="container"><br><p style="text-align:center;margin-bottom:5px">More Movies &amp; TV Series visit us at <a href="https://sdgmax.com">SDGMax.com</a></p>
 <div class="card">
 <div class="card-body">
   <div class="alert alert-danger" id="folderne" role="alert"></div><script>document.getElementById("folderne").innerHTML=decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')+1))).replace('/','').replace('?a=view','');</script>
@@ -693,7 +693,7 @@ function file_video(path) {
 	const content = `
   <link href="https://cdn.jsdelivr.net/gh/jscdn/css@master/video-js/video-js.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/gh/jscdn/js@master/video-js/video-js.min.js"></script>
-  <div class="container"><br>
+  <div class="container"><br><p style="text-align:center;margin-bottom:5px">More Movies &amp; TV Series visit us at <a href="https://sdgmax.com">SDGMax.com</a></p>
   <div class="card">
   <div class="card-body text-center">
   <div class="alert alert-danger" id="folderne" role="alert"></div><script>document.getElementById("folderne").innerHTML=decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')+1))).replace('/','').replace('?a=view','');</script>
@@ -713,7 +713,7 @@ function file_video(path) {
 function file_audio(path) {
 	var url = window.location.origin + path;
 	var content = `
-  <div class="container"><br>
+  <div class="container"><br><p style="text-align:center;margin-bottom:5px">More Movies &amp; TV Series visit us at <a href="https://sdgmax.com">SDGMax.com</a></p>
   <div class="card">
   <div class="card-body text-center">
   <div class="alert alert-danger" id="folderne" role="alert"></div><script>document.getElementById("folderne").innerHTML=decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')+1))).replace('/','').replace('?a=view','');</script>
@@ -736,7 +736,7 @@ function file_pdf(path) {
 	const inline_url = `${url}?inline=true`
 	const file_name = decodeURI(path.slice(path.lastIndexOf('/') + 1, path.length))
 	var content = `
-  <div class="container"><br>
+  <div class="container"><br><p style="text-align:center;margin-bottom:5px">More Movies &amp; TV Series visit us at <a href="https://sdgmax.com">SDGMax.com</a></p>
   <div class="card">
   <div class="card-body text-center">
   <div class="alert alert-danger" id="folderne" role="alert"></div><script>document.getElementById("folderne").innerHTML=decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')+1))).replace('/','').replace('?a=view','');</script>
@@ -780,7 +780,7 @@ function file_image(path) {
 		// </div>
 	}
 	var content = `
-  <div class="container"><br>
+  <div class="container"><br><p style="text-align:center;margin-bottom:5px">More Movies &amp; TV Series visit us at <a href="https://sdgmax.com">SDGMax.com</a></p>
   <div class="card">
   <div class="card-body text-center">
   <div class="alert alert-danger" id="folderne" role="alert"></div><script>document.getElementById("folderne").innerHTML=decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')+1))).replace('/','').replace('?a=view','');</script>
