@@ -204,7 +204,7 @@ function requestSearch(params, resultCallback) {
 // Render file list
 function list(path) {
 	var content = `
-  <div class="container"><br>
+  <div class="container"><br><p style="text-align:center;margin-bottom:5px">More Movies &amp; TV Series visit us at <a href="https://sdgmax.com">SDGMax.com</a></p>
   <div class="card">
   <h5 class="card-header" id="folderne"><input type="text" id="folderne" class="form-control" placeholder="Current Path: Homepage" value="" readonly><script>document.getElementById("folderne").innerHTML='Current Folder: '+decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')-1))).replace('/','').replace('/','');</script>
   </h5>
